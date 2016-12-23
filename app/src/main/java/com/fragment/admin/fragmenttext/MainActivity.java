@@ -14,6 +14,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.fragment.admin.fragmenttext.fragment.Fragment01;
 import com.fragment.admin.fragmenttext.fragment.Fragment02;
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(getApplicationContext(),"1",1).show();
             return true;
         }
 
